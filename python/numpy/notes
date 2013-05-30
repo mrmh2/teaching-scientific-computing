@@ -1,0 +1,5 @@
+import numpy as np
+print leafaray.shape
+xdim, ydim = leafarray.shape
+flat = np.zeros((xdim, ydim), np.uint32)
+flat = leafarray[:,:,2] + leafarray[:,:,1] << 8 + leafarray[:,:,0] << 16
